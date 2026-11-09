@@ -1,19 +1,12 @@
 # Search log: GLP-1 receptor agonists and eye risks
 
-Page: GLP-1 Drugs and the Eye (https://claude.ai/artifact/MJCUvV2LPgYVhhZeE2rcWK). Searches run 28 October 2026.
+Page: GLP-1 Drugs and NAION (https://leosheck.github.io/NAION_GLP1/). Searches run 28 October 2026.
 
-## 1. Bear's journal reading wiki (searched first)
+## 1. Zotero library (searched first)
 
-- Main page: `wiki/concepts/glp1-and-the-eye.md` (updated 20 October 2026, 14 sources).
-- Library items used: Hathaway 2024, Heberer 2026 (US Veterans), Liu 2025 meta-analysis (marked in the wiki as the one paper to quote in clinic), Danesh-Meyer and Rizzo 2026 critique, Allan 2025 (Ophthalmology Retina), Myers 2025, Joo 2025, Hallaj 2026 (AMD), Muayad 2024 (macular oedema).
-- Wiki commentary carried onto the page: the signal is seen only in observational diabetes data; design quality tracks effect size; no cohort stratified by disc at risk; no validated NAION code; the AMD library was one-sided; proposed New Zealand projects.
-- Not in the wiki: glaucoma and eye pressure, idiopathic intracranial hypertension, the FOCUS trial, tirzepatide (apart from three case reports), liraglutide.
+- Collections "GLP-1" and "Research Review". Items held there are tagged Library on the page. Zotero holds DOIs only, so PubMed identifiers were matched afterwards.
 
-## 2. Zotero library (searched second)
-
-- Collections "GLP-1" and "Research Review". Items held there are tagged Library on the page. Zotero holds DOIs only, so PubMed identifiers were matched afterwards. No child notes from Bear on these items.
-
-## 3. PubMed (searched third)
+## 2. PubMed (searched second)
 
 22 query runs (including paged repeats), through the PubMed connector. Queries were split to stay under the connector's limit of 20 boolean operators.
 
