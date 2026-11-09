@@ -1,6 +1,6 @@
 # Search log: GLP-1 receptor agonists and eye risks
 
-Page: GLP-1 Drugs and NAION (https://leosheck.github.io/NAION_GLP1/). Searches run 28 October 2026.
+Page: GLP-1 Drugs and NAION (https://leosheck.github.io/naion_glp1/). Searches run 28 October 2026.
 
 ## 1. Zotero library (searched first)
 
