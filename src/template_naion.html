@@ -1,0 +1,371 @@
+<title>GLP-1 Drugs and NAION</title>
+<meta name="description" content="Risk of non-arteritic anterior ischaemic optic neuropathy (NAION) with GLP-1 receptor agonists such as semaglutide and tirzepatide: every published estimate with 95% confidence intervals, absolute rates and a numbered source for every figure.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column. Outcome switch, then per outcome: tiles, forest plot, notes. Brand: Leo Sheck tokens, as the endophthalmitis page. */
+:root{
+  --bg:#F2F2F2; --surface:#FFFFFF; --surface-2:#F7F7F7; --ink:#030F26; --muted:#565E6E; --line:#E4E4E4; --grid:#EDEDED;
+  --accent:#030F26; --accent-soft:#E4E4E4; --accent-ink:#FFFFFF;
+  --good:#2F6B52; --warn:#94681C; --bad:#9C3A33;
+  --p1:#8C94A4; --p2:#4F5B75; --p3:#030F26; --band:rgba(3,15,38,.10);
+  --shadow:0 1px 2px rgba(3,15,38,.05),0 6px 20px rgba(3,15,38,.06);
+  --f-body:"Inter","Helvetica Neue",Arial,system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+  --r:2px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#030F26; --surface:#0A172E; --surface-2:#0E1C36; --ink:#F2F2F2; --muted:#A0A8B8; --line:#1E2B45; --grid:#14223B;
+  --accent:#E4E4E4; --accent-soft:#1A2843; --accent-ink:#030F26;
+  --good:#6FBE98; --warn:#D9A65A; --bad:#E58A80;
+  --p1:#56627C; --p2:#8F9BB4; --p3:#E4E4E4; --band:rgba(228,228,228,.13);
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 18px rgba(0,0,0,.3); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#030F26; --surface:#0A172E; --surface-2:#0E1C36; --ink:#F2F2F2; --muted:#A0A8B8; --line:#1E2B45; --grid:#14223B;
+  --accent:#E4E4E4; --accent-soft:#1A2843; --accent-ink:#030F26;
+  --good:#6FBE98; --warn:#D9A65A; --bad:#E58A80;
+  --p1:#56627C; --p2:#8F9BB4; --p3:#E4E4E4; --band:rgba(228,228,228,.13);
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 18px rgba(0,0,0,.3); color-scheme:dark}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{background:var(--bg)}
+body{color:var(--ink);font:400 15px/1.55 var(--f-body);-webkit-font-smoothing:antialiased;margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px));padding-block:22px 48px;display:flex;flex-direction:column;gap:28px}
+@media (max-width:520px){.wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}}
+.brandbar{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px 16px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+.brandbar a{color:var(--ink);display:block;line-height:0}
+.brandbar svg{height:13px;width:auto;display:block}
+.brandbar span{font:500 .66rem/1.2 var(--f-body);letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+h1{font:300 1.6rem/1.25 var(--f-body);letter-spacing:.14em;text-transform:uppercase;margin:0;text-wrap:balance}
+h2{font:300 1.05rem/1.3 var(--f-body);letter-spacing:.16em;text-transform:uppercase;margin:0;text-wrap:balance}
+h3{font:600 .95rem/1.35 var(--f-body);margin:0}
+p{margin:0}
+.lede{color:var(--muted);margin-top:10px;max-width:75ch}
+.eyebrow{font:500 .68rem/1.2 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+a{color:inherit;text-underline-offset:2px}
+a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.sect{display:flex;flex-direction:column;gap:14px}
+.sect-hd{display:flex;flex-direction:column;gap:6px}
+.sect-hd p{color:var(--muted);font-size:.9rem;max-width:80ch}
+
+.switch{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;flex-wrap:wrap}
+.seg button{font:500 .8rem/1 var(--f-body);letter-spacing:.04em;background:var(--surface);color:var(--muted);border:0;border-right:1px solid var(--line);padding:10px 14px;cursor:pointer}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.seg.small button{font-size:.74rem;padding:7px 10px}
+@media (max-width:640px){.switch .seg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%}.switch .seg button{border-bottom:1px solid var(--line)}.switch .ctl-label{display:none}}
+
+.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.tile{background:var(--surface);padding:14px 16px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.tile .k{font:500 .66rem/1.3 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.tile .v{font:300 1.7rem/1.1 var(--f-body);font-variant-numeric:tabular-nums;display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 6px}
+.tile .v small{font-size:.9rem;color:var(--muted)}
+.tile .ci{font:400 .8rem/1.4 var(--f-mono);color:var(--muted);font-variant-numeric:tabular-nums}
+@media (max-width:900px){.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.tiles{grid-template-columns:1fr}}
+
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:18px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.controls{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center}
+.ctl-label{font:500 .66rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-right:8px}
+.chartbox{position:relative;overflow-x:auto}
+svg.chart{display:block;width:100%;height:auto}
+svg.chart text{font-family:var(--f-body);fill:var(--ink)}
+.t-mut{fill:var(--muted)!important}
+.t-mono{font-family:var(--f-mono)!important;font-variant-numeric:tabular-nums}
+.tick{fill:var(--muted)!important;font-size:10.5px;font-family:var(--f-mono)!important}
+.row-hit{fill:transparent}
+.row:hover .row-hit,.row:focus .row-hit{fill:var(--accent-soft)}
+.row{cursor:default;outline:none}
+.tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--bg);font:400 .78rem/1.45 var(--f-body);padding:8px 10px;border-radius:var(--r);max-width:340px;z-index:6;box-shadow:var(--shadow)}
+.tip b{font-weight:600}
+.note{font-size:.86rem;color:var(--muted);max-width:90ch}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.8rem;color:var(--muted);align-items:center}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+
+/* Overview */
+.glance{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+@media (max-width:900px){.glance{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.glance{grid-template-columns:1fr}}
+.gcard{background:var(--surface);padding:16px;display:flex;flex-direction:column;gap:8px;min-width:0;cursor:pointer;text-align:left;border:0;font:inherit;color:inherit}
+.gcard:hover{background:var(--surface-2)}
+.gcard:focus-visible{outline:2px solid var(--ink);outline-offset:-4px}
+.gcard .k{font:500 .66rem/1.3 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.gcard h3{font:300 1.15rem/1.3 var(--f-body)}
+.gcard p{font-size:.85rem;color:var(--muted)}
+.dir{display:inline-flex;align-items:center;gap:6px;font:500 .7rem/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase}
+.dir i{width:8px;height:8px;border-radius:50%;display:inline-block}
+.dir.up i{background:var(--bad)} .dir.down i{background:var(--good)} .dir.mixed i{background:var(--warn)}
+.dir.up{color:var(--bad)} .dir.down{color:var(--good)} .dir.mixed{color:var(--warn)}
+.cert{font:400 .74rem/1.3 var(--f-mono);color:var(--muted)}
+ol.take{margin:0;padding-left:1.4em;display:flex;flex-direction:column;gap:8px;font-size:.92rem;max-width:90ch}
+ol.take li::marker{font-family:var(--f-mono);color:var(--muted)}
+
+/* Calculator */
+.calc{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px}
+@media (max-width:760px){.calc{grid-template-columns:1fr}}
+.calc>*{min-width:0}
+.calc .inputs{display:flex;flex-direction:column;gap:14px}
+.calc label{font-size:.85rem;color:var(--muted);display:flex;flex-direction:column;gap:6px}
+.calc label b{color:var(--ink);font-weight:500;font-family:var(--f-mono)}
+.calc input[type=range]{width:100%;accent-color:var(--ink)}
+.calc select{width:100%;max-width:100%;font:inherit;font-size:.85rem;padding:7px 8px;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);color:var(--ink)}
+.calc .read{display:flex;flex-direction:column;gap:12px}
+.calc .big{font:300 2.4rem/1.1 var(--f-body);font-variant-numeric:tabular-nums}
+.calc .sub{font:400 .82rem/1.45 var(--f-mono);color:var(--muted)}
+.bars{display:flex;flex-direction:column;gap:8px}
+.bar{display:grid;grid-template-columns:8.5em 1fr 4.5em;gap:8px;align-items:center;font-size:.8rem}
+.bar .track{height:14px;background:var(--surface-2);border:1px solid var(--line);position:relative}
+.bar .fill{position:absolute;inset:0 auto 0 0;background:var(--p2)}
+.bar .fill.hi{background:var(--ink)}
+.bar .band{position:absolute;top:0;bottom:0;background:var(--band)}
+.bar .n{font-family:var(--f-mono);text-align:right;font-variant-numeric:tabular-nums}
+
+.tablewrap{overflow-x:auto;border:1px solid var(--line)}
+table{border-collapse:collapse;width:100%;font-size:.82rem;min-width:600px}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font:500 .66rem/1.3 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);background:var(--surface-2)}
+td.num{font-family:var(--f-mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+.two>*{min-width:0}
+ul.plain{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px;font-size:.88rem}
+ul.plain li{color:var(--ink)}
+ul.plain.mut li{color:var(--muted)}
+ol.refs{margin:0;padding-left:0;list-style:none;columns:2;column-gap:28px;font-size:.8rem;color:var(--muted)}
+ol.refs li{break-inside:avoid;margin-bottom:6px;display:grid;grid-template-columns:2.6em 1fr;gap:4px}
+ol.refs .n{font-family:var(--f-mono);color:var(--ink)}
+ol.refs li:target{background:var(--accent-soft)}
+@media (max-width:700px){ol.refs{columns:1}}
+.lib{font:500 .62rem/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--line);padding:2px 4px;margin-left:4px;white-space:nowrap}
+sup.r{font:500 .68em/1 var(--f-mono)}
+sup.r a{text-decoration:none}
+.methods-stack{display:flex;flex-direction:column;gap:18px}
+footer{font-size:.78rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+
+<div class="wrap">
+  /*BRANDBAR*/
+
+  <header>
+    <div class="eyebrow">Drug safety · semaglutide, tirzepatide and related drugs</div>
+    <h1 style="margin-top:8px">GLP-1 Drugs and NAION</h1>
+    <p class="lede">Does semaglutide or tirzepatide cause optic nerve stroke (non-arteritic anterior ischaemic optic neuropathy, NAION)? This page sets out every published estimate: cohort studies, randomised trials and meta-analyses, with the absolute rates where reported. Every ratio compares people on a GLP-1 drug with people on another treatment; above 1 means more NAION on the GLP-1 drug. Every interval is a 95% confidence interval. Numbers in brackets point to the numbered sources at the foot of the page.</p>
+  </header>
+
+  <section class="sect" data-tab-sec="naion" style="gap:28px">
+    <div class="sect-hd"><h2>Non-arteritic anterior ischaemic optic neuropathy</h2><p>Sudden painless loss of vision from poor blood flow to the front of the optic nerve. The concern began with a 2024 Boston cohort and has since been tested in national registers in Scandinavia, the United Kingdom and the United States.{{hathaway}}</p></div>
+    <div class="tiles">
+      <div class="tile"><div class="k">NAION, observational studies in diabetes</div><div class="v">1.85<small>times the rate</small></div><div class="ci">hazard ratio against other diabetes drugs<br>95% CI 1.20 to 2.85 · 8 studies pooled{{liu}}</div></div>
+      <div class="tile"><div class="k">Extra NAION risk, observational studies in diabetes</div><div class="v">1 in 12,800<small>per year</small></div><div class="ci">people on the drug who have an extra NAION each year<br>1 in 3,700 per year on drug against 1 in 5,300 on comparator{{liu}}</div></div>
+      <div class="tile"><div class="k">NAION, randomised trials in diabetes</div><div class="v">1.76<small>times the risk</small></div><div class="ci">risk ratio against placebo or other treatment<br>95% CI 0.43 to 7.25 · 5 against 1 cases, not significant{{liu}}</div></div>
+      <div class="tile"><div class="k">Regulator</div><div class="v">Very rare</div><div class="ci">up to 1 in 10,000<br>European Medicines Agency, 2025{{ema}}</div></div>
+    </div>
+
+    <div class="panel">
+      <h2>Clinical takeaways</h2>
+      <ol class="take">
+        <li><b>NAION is probably a real but rare effect in type 2 diabetes.</b> Most large cohort studies and every pooled observational analysis point the same way (relative risk about 1.4 to 2.8), and the European Medicines Agency lists NAION as a very rare side effect of semaglutide, affecting up to 1 in 10,000 users.{{ema}}{{liu}}{{chrz}}</li>
+        <li><b>The absolute excess is small.</b> About 8 extra cases per 100,000 person-years in the pooled diabetes data, or a number needed to harm of about 2,700 to 3,300 over 18 months to 2 years.{{liu}}{{nogueira}}{{reynolds}}</li>
+        <li><b>The risk window is from about 6 months to 2 years of treatment</b>, not the first weeks, with no clear excess after that, and studies weighted by design quality show smaller effects (the US Veterans study with chart-checked codes found 1.35).{{niazi26}}{{choi}}</li>
+        <li><b>Evidence in obesity without diabetes is thin and inconsistent</b>; the large early relative risk (7.6) came from a small referral cohort and has not been reproduced.{{hathaway}}{{chou}}</li>
+        <li><b>The main susceptibility is a small, crowded optic disc</b> (cup-to-disc ratio 0.2 or less), but no study has yet measured whether GLP-1 drugs add more risk in such discs. Stopping or withholding the drug is not recommended on current evidence; a new NAION while on treatment warrants discussion with the prescriber.{{robertson}}{{dmr}}</li>
+      </ol>
+    </div>
+
+    <div class="panel">
+      <div class="sect-hd"><h3>Every study estimate</h3><p class="note">Filled squares are single studies; open diamonds are pooled analyses. Hover or focus a row for detail and the comparator.</p></div>
+      <div class="controls"><span class="ctl-label">Show</span><div class="seg small" id="naionFilt"></div></div>
+      <div class="chartbox" id="naionBox" data-forest="naion"></div>
+    </div>
+
+    <div class="panel">
+      <div class="sect-hd"><h3>Absolute risk as reported</h3><p class="note">Every study that reports a yearly event rate, on the drug (dark dot) and on the comparator (open dot), in events per 100,000 people per year on a log scale. The right-hand bars show the extra rate on the drug: the paper's reported difference where given, otherwise the drug rate minus the comparator rate. Red is more events on the drug, green is fewer. Studies reporting risk over 18 months, 3 years or 5 years were divided by the follow-up. Rates differ a hundredfold between studies because populations, case definitions and follow-up differ, so compare the two dots within each row. Hover a row for the figures as 1 in so many people per year.</p></div>
+      <div class="legend" id="absLegend-naion"></div>
+      <div id="abs-naion" data-abs="NAION"></div>
+    </div>
+
+    <div class="two">
+      <div class="panel">
+        <div class="sect-hd"><h3>Who seems more susceptible</h3></div>
+        <ul class="plain">
+          <li>A small, crowded optic disc: cup-to-disc ratio 0.2 or less carried 46 times the odds of NAION in 2,169 cases; disc shape was the same whether or not people were on a GLP-1 drug.{{robertson}}</li>
+          <li>Men, people under 50, smokers, and people whose HbA1c fell by 1% or more (UK primary care).{{noh}}</li>
+          <li>Men and people over 50 in US insurance data.{{reynolds}}</li>
+          <li>Semaglutide more than liraglutide; the signal for tirzepatide is weaker, and one study found less NAION on tirzepatide than on other GLP-1 drugs.{{sunNMA}}{{kakkar}}{{hong26}}</li>
+          <li>Possible mechanism: a mouse and small human study found that GLP-1 drugs lower intracranial pressure and slow retinal blood flow, reversibly.{{leeMech}} Case reports also describe papillitis and paracentral acute middle maculopathy.{{katz}}</li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="panel">
+      <div class="sect-hd"><h3>Why the studies disagree</h3></div>
+      <ul class="plain mut">
+        <li>The comparator matters. SGLT2 inhibitors may themselves protect the optic nerve, which would enlarge the apparent GLP-1 effect.{{chenDM}}{{ueda}}</li>
+        <li>Diagnosis codes for NAION are unreliable. Chart review confirmed 74.5% and 84.7% of coded cases in two Veterans studies.{{heberer}}{{choi}}</li>
+        <li>Studies from Denmark and Norway report larger effects than those from the global record network, possibly from method rather than population.{{simonsen}}{{abbass25}}</li>
+        <li>Randomised trials have too few events: 8 against 4 cases across 69 trials.{{silverii}}</li>
+        <li>Rapid improvement in blood sugar is itself a suspected trigger, as with diabetic retinopathy.{{noh}}</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ METHODS ============ -->
+  <section class="sect" id="methods">
+    <div class="sect-hd"><h2>Search and methods</h2></div>
+    <div class="methods-stack">
+      <div>
+        <h3 style="margin-bottom:6px">Sources searched, in order</h3>
+        <ul class="plain mut">
+          <li>Dr Sheck's journal reading notes (the GLP-1 and the eye page, 14 sources), then the Zotero library ("GLP-1" and "Research Review" collections). Items held there are marked <span class="lib">Library</span> in the list of sources.</li>
+          <li>PubMed, searched on 28 October 2026: /*QCOUNT*/ queries covering NAION and optic neuropathy, glaucoma and eye pressure, AMD, diabetic retinopathy and macular oedema, vascular occlusion, uveitis, cataract, dry eye, intracranial hypertension, trials, meta-analyses and pharmacovigilance, for all GLP-1 receptor agonists and tirzepatide. /*META*/ records were fetched, /*KEEP*/ abstracts were read, and full text was opened for research letters without abstracts.</li>
+          <li>Not found: full text of several research letters (Fung 2025, Goldenberg 2025, Abboud 2026). No study has measured NAION risk by optic disc shape on GLP-1 drugs.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 style="margin-bottom:6px">How figures are shown</h3>
+        <ul class="plain mut">
+          <li>Ratios are shown as published (hazard, risk, odds or rate ratios), oriented so that above 1 means more events on the GLP-1 drug.</li>
+          <li>No new pooling was done: the pooled rows are the published meta-analyses. Many overlap, as they draw on the same cohorts.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 style="margin-bottom:6px">Gaps noted</h3>
+        <ul class="plain mut">
+          <li>No cohort has been stratified by disc at risk, and there is no validated NAION diagnosis code.</li>
+          <li>Suggested New Zealand projects: a disc OCT case-control study, validation of coded NAION, and an interrupted time series of NAION incidence by ethnicity.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="sect" id="sources">
+    <div class="sect-hd"><h2>Sources</h2><p>Numbered in order of first citation down the page. Links open PubMed or the DOI.</p></div>
+    <ol class="refs" id="refList"></ol>
+  </section>
+
+  <footer>Compiled for Leo Sheck, Retina Specialists, Auckland. Literature to 28 October 2026.</footer>
+</div>
+<div class="tip" id="tip" hidden></div>
+
+<script>
+const DATA=/*DATA*/;
+const $=s=>document.querySelector(s);
+const NS='http://www.w3.org/2000/svg';
+const REFS={};DATA.refs.forEach(r=>REFS[r.n]=r);
+function el(tag,attrs={},parent){const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);if(parent)parent.appendChild(e);return e}
+function txt(parent,x,y,s,attrs={}){const t=el('text',Object.assign({x,y},attrs),parent);t.textContent=s;return t}
+function fr(v){return v>=10?v.toFixed(1):v.toFixed(2)}
+function authYear(n){const r=REFS[n];return r?r.short:''}
+const tip=$('#tip');
+function showTip(evt,html){tip.innerHTML=html;tip.hidden=false;
+  let x=evt.clientX+14+window.scrollX, y=evt.clientY+14+window.scrollY;
+  const tw=tip.offsetWidth; if(x+tw>window.scrollX+document.documentElement.clientWidth-8)x=Math.max(8,window.scrollX+document.documentElement.clientWidth-tw-8);
+  tip.style.left=x+'px';tip.style.top=y+'px'}
+function hideTip(){tip.hidden=true}
+function bindTip(g,html){g.setAttribute('tabindex','0');g.addEventListener('mousemove',e=>showTip(e,html()));g.addEventListener('mouseleave',hideTip);
+  g.addEventListener('focus',()=>{const r=g.getBoundingClientRect();showTip({clientX:r.left+r.width*.3,clientY:r.top+r.height},html())});g.addEventListener('blur',hideTip)}
+function logScale(d0,d1,r0,r1){const a=Math.log10(d0),b=Math.log10(d1);return v=>r0+(Math.log10(Math.min(Math.max(v,d0),d1))-a)/(b-a)*(r1-r0)}
+const STEPS=[0.01,0.02,0.05,0.1,0.2,0.5,1,2,5,10,20,50];
+
+function renderForest(boxSel,rows,filter){
+  const box=$(boxSel);box.innerHTML='';
+  const groups=[...new Set(rows.map(r=>r.group))].filter(g=>!filter||filter==='all'||g===filter);
+  const order=[];groups.forEach(g=>{if(groups.length>1||true)order.push({hdr:g});rows.filter(r=>r.group===g).forEach(r=>order.push(r))});
+  const shown=order.filter(r=>!r.hdr);
+  let lo=Math.min(0.5,...shown.map(r=>r.lo)),hi=Math.max(2,...shown.map(r=>r.hi));
+  const d0=STEPS.filter(s=>s<=lo).pop()||0.01,d1=STEPS.find(s=>s>=hi)||50;
+  const W=980,RH=20,top=34,L=420,R=800;
+  const H=top+order.length*RH+34;
+  const x=logScale(d0,d1,L,R);
+  const svg=el('svg',{class:'chart',viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':'Forest plot of study estimates'});svg.style.minWidth='720px';
+  STEPS.filter(t=>t>=d0&&t<=d1).forEach(t=>{el('line',{x1:x(t),x2:x(t),y1:top-4,y2:H-30,stroke:t===1?'var(--p2)':'var(--grid)','stroke-width':t===1?1.2:1},svg);txt(svg,x(t),H-16,String(t),{class:'tick','text-anchor':'middle'})});
+  txt(svg,x(1)-6,H-3,'◀ fewer events on GLP-1 drug',{class:'t-mut','font-size':10,'text-anchor':'end'});
+  txt(svg,x(1)+6,H-3,'more events on GLP-1 drug ▶',{class:'t-mut','font-size':10});
+  txt(svg,4,top-14,'Study',{class:'t-mut','font-size':10.5});
+  txt(svg,W-4,top-14,'Ratio (95% CI)',{class:'t-mut','font-size':10.5,'text-anchor':'end'});
+  let y=top;
+  order.forEach(r=>{const cy=y+RH/2;
+    if(r.hdr){txt(svg,4,cy+5,r.hdr.toUpperCase(),{class:'t-mut','font-size':9.5,'letter-spacing':'1.2'});y+=RH;return}
+    const g=el('g',{class:'row'},svg);el('rect',{class:'row-hit',x:0,y:y,width:W,height:RH},g);
+    const shade=r.kind==='meta'?'var(--p2)':'var(--ink)';const a=x(r.lo),b=x(r.hi),m=x(r.est);
+    el('line',{x1:a,x2:b,y1:cy,y2:cy,stroke:shade,'stroke-width':1.5},g);
+    if(r.lo<d0)el('polygon',{points:`${L-2},${cy} ${L+4},${cy-3} ${L+4},${cy+3}`,fill:shade},g);
+    if(r.hi>d1)el('polygon',{points:`${R+2},${cy} ${R-4},${cy-3} ${R-4},${cy+3}`,fill:shade},g);
+    if(r.kind==='meta')el('polygon',{points:`${m-5},${cy} ${m},${cy-5} ${m+5},${cy} ${m},${cy+5}`,fill:'var(--surface)',stroke:shade,'stroke-width':1.5},g);
+    else el('rect',{x:m-4,y:cy-4,width:8,height:8,fill:shade},g);
+    const lab=authYear(r.ref)+', '+r.label;
+    txt(g,4,cy+4,lab.length>64?lab.slice(0,63)+'…':lab,{'font-size':11});
+    txt(g,L-8,cy+4,'['+r.ref+']',{'text-anchor':'end','font-size':9.5,class:'t-mut t-mono'});
+    txt(g,W-4,cy+4,`${fr(r.est)} (${fr(r.lo)}–${fr(r.hi)})`,{class:'t-mono','font-size':10.5,'text-anchor':'end'});
+    const rv=v=>v==null?'—':(v>=100?Math.round(v).toLocaleString('en-NZ'):v.toFixed(1));
+    const oneInY=v=>v?'1 in '+Math.round(1e5/v).toLocaleString('en-NZ')+' per year':'';
+    const rateTip=(r.rd!=null||r.rc!=null||r.rx!=null)?`<br>Per 100,000 per year: ${r.rd!=null?'on drug '+rv(r.rd)+' ('+oneInY(r.rd)+')':''}${r.rc!=null?', comparator '+rv(r.rc)+' ('+oneInY(r.rc)+')':''}${r.rx!=null?(r.rd!=null?', ':'')+'extra '+rv(r.rx)+' ('+oneInY(r.rx)+')':''}<br>Source of rate: ${r.rn}`:'';
+    bindTip(g,()=>`<b>${REFS[r.ref].short} [${r.ref}]</b><br>${r.label}<br>${r.measure}: ${fr(r.est)} (${fr(r.lo)} to ${fr(r.hi)})${rateTip}${r.note?'<br>'+r.note:''}`);
+    y+=RH});
+  box.appendChild(svg);
+}
+function segInit(sel,opts,onchange){const c=$(sel);c.innerHTML=opts.map((o,i)=>`<button type="button" data-v="${o.v}" aria-pressed="${i===0}">${o.l}</button>`).join('');
+  c.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{c.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');onchange(b.dataset.v)}))}
+function forestWithFilter(key,box,filt,labels){
+  const rows=DATA.forests[key];const draw=v=>renderForest(box,rows,v);
+  if(filt){const gs=[...new Set(rows.map(r=>r.group))];segInit(filt,[{v:'all',l:'All'}].concat(gs.map(g=>({v:g,l:(labels&&labels[g])||g}))),draw)}
+  draw('all')}
+forestWithFilter('naion','#naionBox','#naionFilt',{'Diabetes, cohort studies':'Diabetes cohorts','Obesity without diabetes':'Obesity','Drug against drug, or special groups':'Special comparisons','Randomised trials, pooled':'Trials','Meta-analyses of observational studies':'Meta-analyses'});
+
+
+/* absolute rates: dumbbell plot (log scale) plus extra rate on a signed log scale */
+function renderAbs(){document.querySelectorAll('[data-abs]').forEach(b=>{if(b.offsetParent!==null||!b.innerHTML)drawAbs(b)})}
+function drawAbs(box){
+  const key=box.id.slice(4),rows=DATA.absr.filter(r=>r.grp===box.dataset.abs);box.innerHTML='';
+  const W=Math.max(300,Math.round(box.clientWidth||900)),small=W<700;
+  const LAB=small?0:Math.min(360,W*0.34),RH=small?36:21,top=34,fs=small?10.5:11,gap=small?14:22;
+  const groups=[...new Set(rows.map(r=>r.stype))];
+  const order=[];groups.forEach(g=>{if(groups.length>1)order.push({hdr:g});rows.filter(r=>r.stype===g).forEach(r=>order.push(r))});
+  const H=top+order.reduce((s,r)=>s+(r.hdr?20:RH),0)+32;
+  const avail=W-LAB-8-(small?6:54), dW=avail*0.56, eW=avail-dW-gap;
+  const x0=LAB+8,x1=x0+dW,e0=x1+gap,e1=e0+eW;
+  const x=logScale(1,5000,x0,x1);
+  const sl=v=>Math.sign(v)*Math.log10(1+Math.abs(v)),EM=sl(3000),ex=v=>e0+(sl(v)+EM)/(2*EM)*(e1-e0);
+  const svg=el('svg',{class:'chart',viewBox:`0 0 ${W} ${H}`,width:W,height:H,role:'img','aria-label':'Yearly event rates on GLP-1 drug and comparator, and the extra rate'});
+  (small?[1,10,100,1000]:[1,3,10,30,100,300,1000,3000]).forEach(v=>{el('line',{x1:x(v),x2:x(v),y1:top-6,y2:H-28,stroke:'var(--grid)'},svg);txt(svg,x(v),H-14,v.toLocaleString('en-NZ'),{class:'tick','text-anchor':'middle'})});
+  (small?[-1000,-10,0,10,1000]:[-1000,-100,-10,0,10,100,1000]).forEach(v=>{el('line',{x1:ex(v),x2:ex(v),y1:top-6,y2:H-28,stroke:v===0?'var(--p2)':'var(--grid)','stroke-width':v===0?1.2:1},svg);txt(svg,ex(v),H-14,(v>0?'+':v<0?'−':'')+Math.abs(v).toLocaleString('en-NZ'),{class:'tick','text-anchor':'middle'})});
+  txt(svg,(x0+x1)/2,top-18,small?'Rate per 100,000 per year':'Rate on drug and comparator',{class:'t-mut','font-size':10,'text-anchor':'middle'});
+  txt(svg,(e0+e1)/2,top-18,'Extra on drug',{class:'t-mut','font-size':10,'text-anchor':'middle'});
+  txt(svg,(x0+x1)/2,H-1,small?'log scale':'per 100,000 per year, log scale',{class:'t-mut','font-size':9.5,'text-anchor':'middle'});
+  txt(svg,(e0+e1)/2,H-1,small?'log either side of 0':'per 100,000 per year, log scale either side of 0',{class:'t-mut','font-size':9.5,'text-anchor':'middle'});
+  const rv=v=>v>=100?Math.round(v).toLocaleString('en-NZ'):(v>=10&&v%1===0?String(v):v.toFixed(1));
+  const oneInY=v=>'1 in '+(1e5/v>=1000?Math.round(1e5/v/100)*100:Math.round(1e5/v)).toLocaleString('en-NZ');
+  let y=top;
+  order.forEach(r=>{
+    if(r.hdr){txt(svg,4,y+14,r.hdr.toUpperCase(),{class:'t-mut','font-size':9.5,'letter-spacing':'1.2'});y+=20;return}
+    const g=el('g',{class:'row'},svg);el('rect',{class:'row-hit',x:0,y,width:W,height:RH},g);
+    const cy=small?y+RH-10:y+RH/2;
+    const lab=REFS[r.ref].short+', '+r.label;
+    if(small)txt(g,4,y+11,lab.length>52?lab.slice(0,51)+'…':lab,{'font-size':fs});
+    else{const mx=Math.floor(LAB/6.1);txt(g,4,cy+4,lab.length>mx?lab.slice(0,mx-1)+'…':lab,{'font-size':fs})}
+    if(r.rd!=null&&r.rc!=null)el('line',{x1:x(r.rd),x2:x(r.rc),y1:cy,y2:cy,stroke:'var(--p1)','stroke-width':2},g);
+    if(r.rc!=null)el('circle',{cx:x(r.rc),cy,r:4.5,fill:'var(--surface)',stroke:'var(--ink)','stroke-width':1.5},g);
+    if(r.rd!=null)el('circle',{cx:x(r.rd),cy,r:4.5,fill:'var(--ink)'},g);
+    const xtra=r.rx!=null?r.rx:(r.rd!=null&&r.rc!=null?r.rd-r.rc:null);
+    if(xtra!=null){const xs=ex(xtra),z=ex(0);el('rect',{x:Math.min(xs,z),y:cy-5,width:Math.max(1,Math.abs(xs-z)),height:10,fill:xtra>=0?'var(--bad)':'var(--good)'},g);
+      if(!small)txt(g,xtra>=0?Math.max(xs,z)+4:Math.min(xs,z)-4,cy+4,(xtra>=0?'+':'−')+rv(Math.abs(xtra)),{class:'t-mono','font-size':10,'text-anchor':xtra>=0?'start':'end'})}
+    else txt(g,ex(0)+6,cy+4,'not reported',{class:'t-mut','font-size':9.5});
+    bindTip(g,()=>`<b>${REFS[r.ref].short} [${r.ref}]</b><br>${r.label}${r.rd!=null?`<br>On drug: ${rv(r.rd)} per 100,000 per year (${oneInY(r.rd)})`:''}${r.rc!=null?`<br>Comparator: ${rv(r.rc)} per 100,000 per year (${oneInY(r.rc)})`:''}${xtra!=null?`<br>${xtra>=0?'Extra':'Fewer'} on drug: ${rv(Math.abs(xtra))} per 100,000 per year (${oneInY(Math.abs(xtra))})${r.rx!=null&&r.rd!=null?', as reported after adjustment':''}`:'<br>Extra rate not reported'}<br>Source: ${r.rn}`);
+    y+=RH});
+  box.appendChild(svg);
+  $('#absLegend-'+key).innerHTML=`<span><svg width="10" height="10" aria-hidden="true"><circle cx="5" cy="5" r="4.5" fill="var(--ink)"/></svg>On GLP-1 drug</span><span><svg width="11" height="11" aria-hidden="true"><circle cx="5.5" cy="5.5" r="4.5" fill="var(--surface)" stroke="var(--ink)" stroke-width="1.5"/></svg>Comparator</span><span><svg width="14" height="10" aria-hidden="true"><rect width="14" height="10" fill="var(--bad)"/></svg>Extra on drug</span><span><svg width="14" height="10" aria-hidden="true"><rect width="14" height="10" fill="var(--good)"/></svg>Fewer on drug</span>`;
+}
+renderAbs();let abT;window.addEventListener('resize',()=>{clearTimeout(abT);abT=setTimeout(renderAbs,150)});
+
+
+/* references */
+$('#refList').innerHTML=DATA.refs.map(r=>{const links=[r.pmid?`<a href="https://pubmed.ncbi.nlm.nih.gov/${r.pmid}/" target="_blank" rel="noopener">PMID ${r.pmid}</a>`:'',r.doi?`<a href="https://doi.org/${r.doi}" target="_blank" rel="noopener">doi</a>`:'',r.url?`<a href="${r.url}" target="_blank" rel="noopener">link</a>`:''].filter(Boolean).join(' · ');
+  return `<li id="ref${r.n}"><span class="n">${r.n}</span><span>${r.cite} ${links}${r.lib?'<span class="lib">Library</span>':''}</span></li>`}).join('');
+
+document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#ref"]');if(a)hideTip()});
+</script>

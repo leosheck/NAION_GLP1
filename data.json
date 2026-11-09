@@ -1,0 +1,1242 @@
+{
+ "refs": [
+  {
+   "n": 1,
+   "key": "hathaway",
+   "cite": "Hathaway JT, Shah MP, Hathaway DB, et al. Risk of Nonarteritic Anterior Ischemic Optic Neuropathy in Patients Prescribed Semaglutide. JAMA Ophthalmol 2024;142:732-739.",
+   "doi": "10.1001/jamaophthalmol.2024.2296",
+   "pmid": "38958939",
+   "url": null,
+   "short": "Hathaway 2024",
+   "lib": true
+  },
+  {
+   "n": 2,
+   "key": "liu",
+   "cite": "Liu Z, Raveendran D, Fourlanos S, et al. Rate and Risk of Nonarteritic Anterior Ischemic Optic Neuropathy with Semaglutide Use for Diabetes and Weight Loss: A Systematic Review and Meta-Analysis. Ophthalmology 2025;133:589-598.",
+   "doi": "10.1016/j.ophtha.2025.12.022",
+   "pmid": "41475544",
+   "url": null,
+   "short": "Liu 2025",
+   "lib": true
+  },
+  {
+   "n": 3,
+   "key": "ema",
+   "cite": "European Medicines Agency, Pharmacovigilance Risk Assessment Committee. Semaglutide: NAION added as a very rare side effect (meeting highlights, June 2025).",
+   "doi": null,
+   "url": "https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-2-5-june-2025",
+   "pmid": null,
+   "short": "EMA 2025",
+   "lib": false
+  },
+  {
+   "n": 4,
+   "key": "chrz",
+   "cite": "Chrzanowski J, Walicka M, Burzy\u0144ski J, et al. Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes: A systematic review and meta-analysis of observational studies. PLoS Med 2026;23:e1005064.",
+   "doi": "10.1371/journal.pmed.1005064",
+   "pmid": "42166479",
+   "url": null,
+   "short": "Chrzanowski 2026",
+   "lib": false
+  },
+  {
+   "n": 5,
+   "key": "nogueira",
+   "cite": "Nogueira A, Rassi TNO, Iqbal A, et al. Association Between GLP-1 Receptor Agonists and Ischemic Optic Neuropathy: A Meta-analysis. Diabetes Care 2026;49:724-729.",
+   "doi": "10.2337/dc25-1238",
+   "pmid": "41498755",
+   "url": null,
+   "short": "Nogueira 2026",
+   "lib": false
+  },
+  {
+   "n": 6,
+   "key": "reynolds",
+   "cite": "Reynolds KR, O'Malley KM, Roy JA, et al. Glucagon-like Peptide-1 Receptor Agonists and Risk for Ischemic Optic Neuropathy : A Target Trial Emulation. Ann Intern Med 2026;179:1244-1253.",
+   "doi": "10.7326/ANNALS-25-00860",
+   "pmid": "42441967",
+   "url": null,
+   "short": "Reynolds 2026",
+   "lib": false
+  },
+  {
+   "n": 7,
+   "key": "niazi26",
+   "cite": "Niazi S, Gnesin F, Jawad BN, et al. Timing and duration of glucagon-like peptide-1 receptor agonist use and risk of nonarteritic anterior ischaemic optic neuropathy. Acta Ophthalmol 2026.",
+   "doi": "10.1111/aos.70168",
+   "pmid": "42126975",
+   "url": null,
+   "short": "Niazi 2026",
+   "lib": false
+  },
+  {
+   "n": 8,
+   "key": "choi",
+   "cite": "Choi T, Al-Aly Z, Xie Y. GLP-1 Receptor Agonists or SGLT2 Inhibitors and Nonarteritic Anterior Ischemic Optic Neuropathy. JAMA Netw Open 2026;9:e269917.",
+   "doi": "10.1001/jamanetworkopen.2026.9917",
+   "pmid": "42060307",
+   "url": null,
+   "short": "Choi 2026",
+   "lib": false
+  },
+  {
+   "n": 9,
+   "key": "chou",
+   "cite": "Chou CC, Pan SY, Sheen YJ, et al. Association between Semaglutide and Nonarteritic Anterior Ischemic Optic Neuropathy: A Multinational Population-Based Study. Ophthalmology 2024;132:381-388.",
+   "doi": "10.1016/j.ophtha.2024.10.030",
+   "pmid": "39491755",
+   "url": null,
+   "short": "Chou 2024",
+   "lib": false
+  },
+  {
+   "n": 10,
+   "key": "robertson",
+   "cite": "Robertson CM, Fung DS, Smith KH, et al. Cup-To-Disc Ratio in Glucagon-Like Peptide 1 Receptor Agonist-Associated Nonarteritic Anterior Ischemic Optic Neuropathy. Ophthalmology 2026;133:1296-1305.",
+   "doi": "10.1016/j.ophtha.2026.07.036",
+   "pmid": "42556433",
+   "url": null,
+   "short": "Robertson 2026",
+   "lib": false
+  },
+  {
+   "n": 11,
+   "key": "dmr",
+   "cite": "Danesh-Meyer HV, Rizzo JF. GLP-1 receptor agonists and non-arteritic anterior ischaemic optic neuropathy: a critical appraisal. Clin Exp Ophthalmol 2026;54:554-64.",
+   "doi": "10.1111/ceo.70096",
+   "url": null,
+   "pmid": null,
+   "short": "Danesh-Meyer 2026",
+   "lib": true
+  },
+  {
+   "n": 12,
+   "key": "grauslund",
+   "cite": "Grauslund J, Taha AA, Molander LD, et al. Once-weekly semaglutide doubles the five-year risk of nonarteritic anterior ischemic optic neuropathy in a Danish cohort of 424,152 persons with type 2 diabetes. Int J Retina Vitreous 2024;10:97.",
+   "doi": "10.1186/s40942-024-00620-x",
+   "pmid": "39696569",
+   "url": null,
+   "short": "Grauslund 2024",
+   "lib": false
+  },
+  {
+   "n": 13,
+   "key": "simonsen",
+   "cite": "Simonsen E, Lund LC, Ernst MT, et al. Use of semaglutide and risk of non-arteritic anterior ischemic optic neuropathy: A Danish-Norwegian cohort study. Diabetes Obes Metab 2025;27:3094-3103.",
+   "doi": "10.1111/dom.16316",
+   "pmid": "40098249",
+   "url": null,
+   "short": "Simonsen 2025",
+   "lib": false
+  },
+  {
+   "n": 14,
+   "key": "heberer",
+   "cite": "Heberer K, Bress AP, Cogill S, et al. New-Onset Nonarteritic Anterior Ischemic Optic Neuropathy and Initiators of Semaglutide in US Veterans With Type 2 Diabetes. JAMA Ophthalmol 2026;144:259-264.",
+   "doi": "10.1001/jamaophthalmol.2025.6262",
+   "pmid": "41678180",
+   "url": null,
+   "short": "Heberer 2026",
+   "lib": true
+  },
+  {
+   "n": 15,
+   "key": "noh",
+   "cite": "Noh Y, Yin H, Ben Ghezala I, et al. Glucagon-Like Peptide 1 Receptor Agonists and Risk of Nonarteritic Anterior Ischemic Optic Neuropathy in Patients With Type 2 Diabetes. Diabetes Care 2026;49:763-771.",
+   "doi": "10.2337/dc25-2577",
+   "pmid": "41701611",
+   "url": null,
+   "short": "Noh 2026",
+   "lib": false
+  },
+  {
+   "n": 16,
+   "key": "hsu",
+   "cite": "Hsu AY, Kuo HT, Wang YH, et al. Semaglutide and Nonarteritic Anterior Ischemic Optic Neuropathy Risk Among Patients With Diabetes. JAMA Ophthalmol 2025;143:400-407.",
+   "doi": "10.1001/jamaophthalmol.2025.0349",
+   "pmid": "40146102",
+   "url": null,
+   "short": "Hsu 2025",
+   "lib": false
+  },
+  {
+   "n": 17,
+   "key": "tesfaye",
+   "cite": "Tesfaye H, Paik JM, Wexler DJ, et al. GLP-1RA and the risk of non-arteritic anterior ischaemic optic neuropathy in patients with type 2 diabetes: A population-based study. Diabetes Obes Metab 2025;28:1517-1528.",
+   "doi": "10.1111/dom.70200",
+   "pmid": "41104517",
+   "url": null,
+   "short": "Tesfaye 2025",
+   "lib": false
+  },
+  {
+   "n": 18,
+   "key": "wang25",
+   "cite": "Wang L, Volkow ND, Kaelber DC, et al. Semaglutide or Tirzepatide and Optic Nerve and Visual Pathway Disorders in Type 2 Diabetes. JAMA Netw Open 2025;8:e2526327.",
+   "doi": "10.1001/jamanetworkopen.2025.26327",
+   "pmid": "40788646",
+   "url": null,
+   "short": "Wang 2025",
+   "lib": false
+  },
+  {
+   "n": 19,
+   "key": "ueda",
+   "cite": "Ueda P, Svanstr\u00f6m H, S\u00f6derling J, et al. Glucagon-like Peptide-1 Receptor Agonists and Risk for Anterior Ischemic Optic Neuropathy : A Nationwide Cohort Study. Ann Intern Med 2026;179:1232-1243.",
+   "doi": "10.7326/ANNALS-25-02096",
+   "pmid": "42441962",
+   "url": null,
+   "short": "Ueda 2026",
+   "lib": false
+  },
+  {
+   "n": 20,
+   "key": "klonoff",
+   "cite": "Klonoff DC, Hui G, Gombar S. Real-World Evidence Assessment of the Risk of Nonarteritic Anterior Ischemic Optic Neuropathy in Patients Prescribed Semaglutide. J Diabetes Sci Technol 2024;18:1517-1518.",
+   "doi": "10.1177/19322968241268050",
+   "pmid": "39080859",
+   "url": null,
+   "short": "Klonoff 2024",
+   "lib": false
+  },
+  {
+   "n": 21,
+   "key": "cai25",
+   "cite": "Cai CX, Hribar M, Baxter S, et al. Semaglutide and Nonarteritic Anterior Ischemic Optic Neuropathy. JAMA Ophthalmol 2025;143:304-314.",
+   "doi": "10.1001/jamaophthalmol.2024.6555",
+   "pmid": "39976940",
+   "url": null,
+   "short": "Cai 2025",
+   "lib": false
+  },
+  {
+   "n": 22,
+   "key": "chenDM",
+   "cite": "Chen JW, Yu FT, Chen HA, et al. Glucagon-like peptide-1 receptor agonists and the risk of nonarteritic anterior ischemic optic neuropathy: Evidence from a global real-world cohort. Diabetes Metab 2026;52:101740.",
+   "doi": "10.1016/j.diabet.2026.101740",
+   "pmid": "41687959",
+   "url": null,
+   "short": "Chen 2026",
+   "lib": false
+  },
+  {
+   "n": 23,
+   "key": "lee26",
+   "cite": "Lee JJ, Brothers T, Kim LA, et al. Glucagon-Like Peptide-1 Receptor Agonist Use and Risk of Nonarteritic Anterior Ischemic Optic Neuropathy in Patients with Type 2 Diabetes. Ophthalmol Retina 2026.",
+   "doi": "10.1016/j.oret.2026.08.029",
+   "pmid": "42692107",
+   "url": null,
+   "short": "Lee 2026",
+   "lib": false
+  },
+  {
+   "n": 24,
+   "key": "ramsey",
+   "cite": "Ramsey DJ, Makwana B, Dani SS, et al. GLP-1 Receptor Agonists and Sight-Threatening Ophthalmic Complications in Patients With Type 2 Diabetes. JAMA Netw Open 2025;8:e2526321.",
+   "doi": "10.1001/jamanetworkopen.2025.26321",
+   "pmid": "40788647",
+   "url": null,
+   "short": "Ramsey 2025",
+   "lib": false
+  },
+  {
+   "n": 25,
+   "key": "gonzalez",
+   "cite": "Gonzalez A, Chastain L, Karasik O, et al. Association of GLP1-Receptor Agonists With Diabetic Retinopathy. Diabetes Obes Metab 2026;28:10586-10602.",
+   "doi": "10.1111/dom.71267",
+   "pmid": "42660856",
+   "url": null,
+   "short": "Gonzalez 2026",
+   "lib": false
+  },
+  {
+   "n": 26,
+   "key": "jarrett",
+   "cite": "Jarrett E, Muayad J, Ryu BU, et al. Glucagon-Like Peptide-1 Analogs Associated with a Reduced Risk of Legal Blindness in Type 2 Diabetics with Cardiovascular Risks. Clin Ophthalmol 2026;20:581826.",
+   "doi": "10.2147/OPTH.S581826",
+   "pmid": "41907810",
+   "url": null,
+   "short": "Jarrett 2026",
+   "lib": false
+  },
+  {
+   "n": 27,
+   "key": "shahAJO",
+   "cite": "Shah J, Makwana B, Panchal K, et al. Glucagon-Like Peptide-1 Receptor Agonists and Risk of Systemic and Ocular Vascular Complications in Patients With Type 2 Diabetes and Diabetic Retinopathy. Am J Ophthalmol 2026;288:131-142.",
+   "doi": "10.1016/j.ajo.2026.04.021",
+   "pmid": "42025665",
+   "url": null,
+   "short": "Shah 2026",
+   "lib": false
+  },
+  {
+   "n": 28,
+   "key": "abbass25",
+   "cite": "Abbass NJ, Nahlawi R, Shaia JK, et al. The Effect of Semaglutide and GLP-1 RAs on Risk of Nonarteritic Anterior Ischemic Optic Neuropathy. Am J Ophthalmol 2025;274:24-31.",
+   "doi": "10.1016/j.ajo.2025.02.025",
+   "pmid": "40015592",
+   "url": null,
+   "short": "Abbass 2025",
+   "lib": false
+  },
+  {
+   "n": 29,
+   "key": "lieberman",
+   "cite": "Lieberman RA, Korona-Bailey J, Banaag A, et al. Semaglutide Decreases Risk of Non-Arteritic Anterior Ischemic Optic Neuroapthy in Type 2 Diabetic Patients. Mil Med 2026;191:e1020-e1025.",
+   "doi": "10.1093/milmed/usaf522",
+   "pmid": "41217382",
+   "url": null,
+   "short": "Lieberman 2026",
+   "lib": false
+  },
+  {
+   "n": 30,
+   "key": "hong26",
+   "cite": "Hong AT, Lin F, Keenan JD, et al. Ocular Outcomes with Tirzepatide versus Glucagon-like Peptide-1 Receptor Agonists in Type 2 Diabetes. Ophthalmol Retina 2026;10:625-632.",
+   "doi": "10.1016/j.oret.2026.02.002",
+   "pmid": "41655764",
+   "url": null,
+   "short": "Hong 2026",
+   "lib": false
+  },
+  {
+   "n": 31,
+   "key": "alharbi",
+   "cite": "Al-Harbi FA, Alkuwaiti MA, Alaql YB, et al. Risk of Non-Arteritic Anterior Ischemic Optic Neuropathy in Idiopathic Intracranial Hypertension Patients Treated with GLP-1 Receptor Agonists. Ann Clin Transl Neurol 2026.",
+   "doi": "10.1002/acn3.70406",
+   "pmid": "41994958",
+   "url": null,
+   "short": "Al-Harbi 2026",
+   "lib": false
+  },
+  {
+   "n": 32,
+   "key": "silverii",
+   "cite": "Silverii GA, Pala L, Cresci B, et al. Glucagon-like peptide 1 (GLP1) receptor agonists and risk for ischemic optic neuropathy: A meta-analysis of randomised controlled trials. Diabetes Obes Metab 2024;27:1005-1009.",
+   "doi": "10.1111/dom.16076",
+   "pmid": "39563616",
+   "url": null,
+   "short": "Silverii 2024",
+   "lib": false
+  },
+  {
+   "n": 33,
+   "key": "li26",
+   "cite": "Li HY, Chan TK, Co Shih K, et al. GLP-1 Receptor Agonists and Risk of Optic Nerve or Vision-Threatening Events in Patients With Type 2 Diabetes or Cardiometabolic Diseases: A Meta-analysis of Randomized Controlled Trials. Diabetes Care 2026;49:526-535.",
+   "doi": "10.2337/dc25-1929",
+   "pmid": "41587563",
+   "url": null,
+   "short": "Li 2026",
+   "lib": false
+  },
+  {
+   "n": 34,
+   "key": "natividade",
+   "cite": "Natividade GR, Spiazzi BF, Baumgarten MW, et al. Ocular Adverse Events With Semaglutide: A Systematic Review and Meta-Analysis. JAMA Ophthalmol 2025;143:759-768.",
+   "doi": "10.1001/jamaophthalmol.2025.2489",
+   "pmid": "40810985",
+   "url": null,
+   "short": "Natividade 2025",
+   "lib": false
+  },
+  {
+   "n": 35,
+   "key": "abdelaal",
+   "cite": "Abdelaal A, Abu Serhan H, Alsaadi M, et al. Semaglutide and the Risk of Nonarteritic Ischemic Optic Neuropathy: A Systematic Review and Certainty of Evidence Meta-Analysis. Ophthalmology 2026;133:799-810.",
+   "doi": "10.1016/j.ophtha.2026.02.013",
+   "pmid": "41692115",
+   "url": null,
+   "short": "Abdelaal 2026",
+   "lib": false
+  },
+  {
+   "n": 36,
+   "key": "khani",
+   "cite": "Khani E, Asham H, Rezabakhsh A, et al. Semaglutide-Induced Nonarteritic Anterior Ischemic Optic Neuropathy: A Systematic Review and Meta-Analysis. J Clin Pharmacol 2026;66:e70248.",
+   "doi": "10.1002/jcph.70248",
+   "pmid": "42612051",
+   "url": null,
+   "short": "Khani 2026",
+   "lib": false
+  },
+  {
+   "n": 37,
+   "key": "dhiv",
+   "cite": "Dhivagaran T, Butt F, Arunasalam L, et al. Glucagon-like Peptide-1 Receptor Agonists and Risk of Nonarteritic Anterior Ischemic Optic Neuropathy: Systematic Review and Meta-Analysis. Neurology 2026;106:e214864.",
+   "doi": "10.1212/WNL.0000000000214864",
+   "pmid": "42060879",
+   "url": null,
+   "short": "Dhivagaran 2026",
+   "lib": false
+  },
+  {
+   "n": 38,
+   "key": "chenAPJO",
+   "cite": "Chen KY, Chan HC, Chan CM. Does semaglutide increase the risk of non-arteritic anterior ischemic optic neuropathy? A systematic review and meta-analysis of emerging evidence. Asia Pac J Ophthalmol (Phila) 2025;15:100245.",
+   "doi": "10.1016/j.apjo.2025.100245",
+   "pmid": "40962119",
+   "url": null,
+   "short": "Chen 2025",
+   "lib": false
+  },
+  {
+   "n": 39,
+   "key": "sunNMA",
+   "cite": "Sun H, Xin X, Yan J, et al. Comparative Risk of Nonarteritic Anterior Ischemic Optic Neuropathy Among Glucagon-Like Peptide-1 Receptor Agonists: An Integrated Safety and Mechanistic Analysis. Diabetes Obes Metab 2026.",
+   "doi": "10.1111/dom.71358",
+   "pmid": "42768849",
+   "url": null,
+   "short": "Sun 2026",
+   "lib": false
+  },
+  {
+   "n": 40,
+   "key": "anatriello",
+   "cite": "Anatriello A, Liguori V, Cagnotta C, et al. Ocular disorders during treatment with GLP-1 receptor agonists: a systematic review and meta-analysis of observational studies. Front Pharmacol 2026;17:1808359.",
+   "doi": "10.3389/fphar.2026.1808359",
+   "pmid": "42311413",
+   "url": null,
+   "short": "Anatriello 2026",
+   "lib": false
+  },
+  {
+   "n": 41,
+   "key": "vilsboll26",
+   "cite": "Vilsb\u00f8ll T, Arun Kumar D, Aiello LP, et al. Non-arteritic anterior ischaemic optic neuropathy incidence in placebo-controlled clinical trials of liraglutide or semaglutide. Br J Ophthalmol 2026.",
+   "doi": "10.1136/bjo-2025-328729",
+   "pmid": "42049287",
+   "url": null,
+   "short": "Vilsb\u00f8ll 2026",
+   "lib": false
+  },
+  {
+   "n": 42,
+   "key": "kakkar",
+   "cite": "Kakkar AK, Payra S, Charaya A. Optic Ischaemic Neuropathy in Incretin-Based Therapy: A Comparative Analysis of Real-World Safety Data. Diabetes Obes Metab 2026;28:7527-7535.",
+   "doi": "10.1111/dom.70952",
+   "pmid": "42259643",
+   "url": null,
+   "short": "Kakkar 2026",
+   "lib": false
+  },
+  {
+   "n": 43,
+   "key": "leeMech",
+   "cite": "Lee YK, Chang YY, Jang HN, et al. GLP-1 receptor agonist-induced transient retinal perfusion delay and its potential mediation by intracranial pressure. Biomed Pharmacother 2026;201:119635.",
+   "doi": "10.1016/j.biopha.2026.119635",
+   "pmid": "42335513",
+   "url": null,
+   "short": "Lee 2026",
+   "lib": false
+  },
+  {
+   "n": 44,
+   "key": "katz",
+   "cite": "Katz BJ, Lee MS, Lincoff NS, et al. Ophthalmic Complications Associated With the Antidiabetic Drugs Semaglutide and Tirzepatide. JAMA Ophthalmol 2025;143:215-220.",
+   "doi": "10.1001/jamaophthalmol.2024.6058",
+   "pmid": "39883468",
+   "url": null,
+   "short": "Katz 2025",
+   "lib": false
+  }
+ ],
+ "forests": {
+  "naion": [
+   {
+    "ref": 1,
+    "label": "Semaglutide, diabetes, neuro-ophthalmology referrals",
+    "est": 4.28,
+    "lo": 1.62,
+    "hi": 11.29,
+    "measure": "Hazard ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": "Other diabetes drugs. 17 against 6 events. Referral population, so absolute risks are not general.",
+    "rd": 2970,
+    "rc": 600,
+    "rx": null,
+    "rn": "36-month cumulative incidence 8.9% against 1.8%, divided by 3"
+   },
+   {
+    "ref": 12,
+    "label": "Semaglutide, Denmark national register",
+    "est": 2.19,
+    "lo": 1.54,
+    "hi": 3.12,
+    "measure": "Hazard ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": "0.228 against 0.093 per 1,000 person-years. Median time to NAION 22.2 months.",
+    "rd": 22.8,
+    "rc": 9.3,
+    "rx": null,
+    "rn": "reported incidence rate"
+   },
+   {
+    "ref": 13,
+    "label": "Semaglutide against SGLT2 inhibitor, Denmark and Norway",
+    "est": 2.81,
+    "lo": 1.67,
+    "hi": 4.75,
+    "measure": "Hazard ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": "1.41 extra cases per 10,000 person-years.",
+    "rd": 21.9,
+    "rc": 11.8,
+    "rx": 14.1,
+    "rn": "Danish crude rates; extra is the adjusted pooled rate difference"
+   },
+   {
+    "ref": 7,
+    "label": "Any GLP-1 drug, Danish case-control",
+    "est": 2.13,
+    "lo": 1.43,
+    "hi": 3.18,
+    "measure": "Rate ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": "123 cases. No excess in the first 6 months (0.80); 3.63 at 6 to 12 months; 3.52 at 12 to 18 months."
+   },
+   {
+    "ref": 14,
+    "label": "Semaglutide against SGLT2 inhibitor, US Veterans",
+    "est": 2.33,
+    "lo": 1.53,
+    "hi": 3.54,
+    "measure": "Hazard ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": "123 against 67 per 100,000 person-years. Curves separate from about 6 months.",
+    "rd": 123,
+    "rc": 67,
+    "rx": null,
+    "rn": "reported incidence rate"
+   },
+   {
+    "ref": 15,
+    "label": "Against DPP-4 inhibitor, UK primary care, 1 year",
+    "est": 2.56,
+    "lo": 1.44,
+    "hi": 4.86,
+    "measure": "Risk ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": "18.5 against 7.2 per 100,000. Higher in the first 6 months, under 50, men, smokers, and with an HbA1c fall of 1% or more.",
+    "rd": 18.5,
+    "rc": 7.2,
+    "rx": null,
+    "rn": "1-year risk"
+   },
+   {
+    "ref": 16,
+    "label": "Semaglutide, global records network, 2 years",
+    "est": 2.39,
+    "lo": 1.37,
+    "hi": 4.18,
+    "measure": "Hazard ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": "1 year 1.94 (0.93 to 4.02), not significant."
+   },
+   {
+    "ref": 17,
+    "label": "Against SGLT2 inhibitor, three US insurance databases",
+    "est": 1.85,
+    "lo": 1.51,
+    "hi": 2.27,
+    "measure": "Hazard ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": "482,912 matched pairs. 0.29 extra cases per 1,000 person-years.",
+    "rd": null,
+    "rc": null,
+    "rx": 29,
+    "rn": "reported rate difference 0.29 per 1,000 person-years"
+   },
+   {
+    "ref": 18,
+    "label": "Semaglutide or tirzepatide, US records, 2 years",
+    "est": 1.76,
+    "lo": 1.01,
+    "hi": 3.07,
+    "measure": "Hazard ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": "35 (0.04%) against 19 (0.02%) events.",
+    "rd": 22,
+    "rc": 12,
+    "rx": null,
+    "rn": "2-year risk 35 and 19 of 79,699, divided by 2"
+   },
+   {
+    "ref": 19,
+    "label": "Against SGLT2 inhibitor, Sweden, 5 years",
+    "est": 1.69,
+    "lo": 0.95,
+    "hi": 3.01,
+    "measure": "Risk ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": "0.12% against 0.07%. Restricted to metformin users 1.23 (0.65 to 2.33).",
+    "rd": 24,
+    "rc": 14,
+    "rx": null,
+    "rn": "5-year risk 0.12% against 0.07%, divided by 5"
+   },
+   {
+    "ref": 20,
+    "label": "Semaglutide, US records",
+    "est": 1.45,
+    "lo": 0.51,
+    "hi": 4.17,
+    "measure": "Hazard ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": "Research letter."
+   },
+   {
+    "ref": 21,
+    "label": "Semaglutide against empagliflozin, 14 databases",
+    "est": 1.44,
+    "lo": 0.78,
+    "hi": 2.68,
+    "measure": "Hazard ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": "37 million people with diabetes. 14.5 per 100,000 person-years on semaglutide.",
+    "rd": 14.5,
+    "rc": null,
+    "rx": null,
+    "rn": "reported rate on semaglutide"
+   },
+   {
+    "ref": 21,
+    "label": "Same data, self-controlled case series",
+    "est": 1.32,
+    "lo": 1.14,
+    "hi": 1.54,
+    "measure": "Rate ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": "Each person compared with themselves, which removes fixed confounders.",
+    "rd": 14.5,
+    "rc": null,
+    "rx": null,
+    "rn": "reported rate on semaglutide"
+   },
+   {
+    "ref": 22,
+    "label": "Against other diabetes drugs, global records network",
+    "est": 1.38,
+    "lo": 1.23,
+    "hi": 1.55,
+    "measure": "Hazard ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": "0.21% against 0.17%. Against SGLT2 inhibitors 1.30 (1.11 to 1.52)."
+   },
+   {
+    "ref": 8,
+    "label": "Against SGLT2 inhibitor, US Veterans, 3 years",
+    "est": 1.35,
+    "lo": 1.11,
+    "hi": 1.51,
+    "measure": "Risk ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": "39.1 against 29.3 per 10,000. Diagnosis code checked against charts: 84.7% correct.",
+    "rd": 130,
+    "rc": 98,
+    "rx": null,
+    "rn": "3-year risk 39.1 against 29.3 per 10,000, divided by 3"
+   },
+   {
+    "ref": 23,
+    "label": "Against SGLT2 or DPP-4 inhibitor, US claims",
+    "est": 1.86,
+    "lo": 0.84,
+    "hi": 4.09,
+    "measure": "Hazard ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": "26 events in total."
+   },
+   {
+    "ref": 9,
+    "label": "Semaglutide, diabetes alone, 3 years",
+    "est": 1.51,
+    "lo": 0.71,
+    "hi": 3.25,
+    "measure": "Hazard ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": ""
+   },
+   {
+    "ref": 24,
+    "label": "Global records network, 2 years",
+    "est": 1.26,
+    "lo": 0.94,
+    "hi": 1.7,
+    "measure": "Hazard ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": ""
+   },
+   {
+    "ref": 25,
+    "label": "Against DPP-4 inhibitor",
+    "est": 1.11,
+    "lo": 0.96,
+    "hi": 1.29,
+    "measure": "Odds ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": ""
+   },
+   {
+    "ref": 26,
+    "label": "Ischaemic optic neuropathy, 5 years",
+    "est": 0.98,
+    "lo": 0.79,
+    "hi": 1.21,
+    "measure": "Hazard ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": "People with diabetes and cardiovascular risk factors."
+   },
+   {
+    "ref": 27,
+    "label": "People who already have diabetic retinopathy",
+    "est": 0.88,
+    "lo": 0.54,
+    "hi": 1.44,
+    "measure": "Hazard ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": ""
+   },
+   {
+    "ref": 28,
+    "label": "Semaglutide, 5 years",
+    "est": 0.7,
+    "lo": 0.52,
+    "hi": 0.94,
+    "measure": "Risk ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": "Any GLP-1 drug 0.89 (0.74 to 1.07).",
+    "rd": 13,
+    "rc": null,
+    "rx": null,
+    "rn": "5-year cumulative risk 0.065%, divided by 5"
+   },
+   {
+    "ref": 29,
+    "label": "Semaglutide, US military health system",
+    "est": 0.36,
+    "lo": 0.25,
+    "hi": 0.51,
+    "measure": "Odds ratio",
+    "group": "Diabetes, cohort studies",
+    "kind": "study",
+    "note": "An outlier in the protective direction."
+   },
+   {
+    "ref": 1,
+    "label": "Semaglutide, obesity, referral clinic",
+    "est": 7.64,
+    "lo": 2.21,
+    "hi": 26.36,
+    "measure": "Hazard ratio",
+    "group": "Obesity without diabetes",
+    "kind": "study",
+    "note": "20 against 3 events.",
+    "rd": 2230,
+    "rc": 270,
+    "rx": null,
+    "rn": "36-month cumulative incidence 6.7% against 0.8%, divided by 3"
+   },
+   {
+    "ref": 9,
+    "label": "Semaglutide, obesity alone, 3 years",
+    "est": 0.72,
+    "lo": 0.24,
+    "hi": 2.16,
+    "measure": "Hazard ratio",
+    "group": "Obesity without diabetes",
+    "kind": "study",
+    "note": ""
+   },
+   {
+    "ref": 29,
+    "label": "Semaglutide, obesity",
+    "est": 0.1,
+    "lo": 0.01,
+    "hi": 1.35,
+    "measure": "Odds ratio",
+    "group": "Obesity without diabetes",
+    "kind": "study",
+    "note": ""
+   },
+   {
+    "ref": 30,
+    "label": "Tirzepatide against other GLP-1 drugs",
+    "est": 0.45,
+    "lo": 0.27,
+    "hi": 0.86,
+    "measure": "Hazard ratio",
+    "group": "Drug against drug, or special groups",
+    "kind": "study",
+    "note": "Suggests less NAION on tirzepatide than on semaglutide or similar drugs."
+   },
+   {
+    "ref": 31,
+    "label": "People with idiopathic intracranial hypertension",
+    "est": 0.47,
+    "lo": 0.24,
+    "hi": 0.93,
+    "measure": "Hazard ratio",
+    "group": "Drug against drug, or special groups",
+    "kind": "study",
+    "note": "Optic atrophy 0.78 (0.64 to 0.94)."
+   },
+   {
+    "ref": 2,
+    "label": "Trials in diabetes",
+    "est": 1.76,
+    "lo": 0.43,
+    "hi": 7.25,
+    "measure": "Risk ratio",
+    "group": "Randomised trials, pooled",
+    "kind": "meta",
+    "note": "5 against 1 events."
+   },
+   {
+    "ref": 2,
+    "label": "Trials in weight loss",
+    "est": 2.18,
+    "lo": 0.33,
+    "hi": 14.34,
+    "measure": "Risk ratio",
+    "group": "Randomised trials, pooled",
+    "kind": "meta",
+    "note": ""
+   },
+   {
+    "ref": 32,
+    "label": "69 trials",
+    "est": 1.53,
+    "lo": 0.53,
+    "hi": 4.44,
+    "measure": "Odds ratio",
+    "group": "Randomised trials, pooled",
+    "kind": "meta",
+    "note": "8 against 4 events. 5.6 against 3.0 per 100,000 person-years.",
+    "rd": 5.6,
+    "rc": 3.0,
+    "rx": null,
+    "rn": "reported rate"
+   },
+   {
+    "ref": 33,
+    "label": "20 trials, ischaemic optic neuropathy",
+    "est": 1.5,
+    "lo": 0.49,
+    "hi": 4.63,
+    "measure": "Odds ratio",
+    "group": "Randomised trials, pooled",
+    "kind": "meta",
+    "note": "240,334 person-years."
+   },
+   {
+    "ref": 5,
+    "label": "8 trials",
+    "est": 2.36,
+    "lo": 0.85,
+    "hi": 6.53,
+    "measure": "Odds ratio",
+    "group": "Randomised trials, pooled",
+    "kind": "meta",
+    "note": ""
+   },
+   {
+    "ref": 34,
+    "label": "78 trials",
+    "est": 3.92,
+    "lo": 1.02,
+    "hi": 15.02,
+    "measure": "Peto odds ratio",
+    "group": "Randomised trials, pooled",
+    "kind": "meta",
+    "note": "All eye disorders 1.01 (0.91 to 1.12)."
+   },
+   {
+    "ref": 2,
+    "label": "Observational studies, diabetes",
+    "est": 1.85,
+    "lo": 1.2,
+    "hi": 2.85,
+    "measure": "Hazard ratio",
+    "group": "Meta-analyses of observational studies",
+    "kind": "meta",
+    "note": "26.7 against 18.9 per 100,000 person-years. Weight-loss studies 1.57 (0.69 to 3.59).",
+    "rd": 26.7,
+    "rc": 18.9,
+    "rx": null,
+    "rn": "reported pooled rate"
+   },
+   {
+    "ref": 4,
+    "label": "5 studies, diabetes",
+    "est": 2.17,
+    "lo": 1.73,
+    "hi": 2.74,
+    "measure": "Hazard ratio",
+    "group": "Meta-analyses of observational studies",
+    "kind": "meta",
+    "note": "About 1 extra case per 7,000 people per year.",
+    "rd": null,
+    "rc": null,
+    "rx": 14,
+    "rn": "reported absolute excess 0.014% per year"
+   },
+   {
+    "ref": 5,
+    "label": "Non-randomised studies",
+    "est": 1.64,
+    "lo": 1.15,
+    "hi": 2.35,
+    "measure": "Odds ratio",
+    "group": "Meta-analyses of observational studies",
+    "kind": "meta",
+    "note": "Number needed to harm about 2,700."
+   },
+   {
+    "ref": 35,
+    "label": "6 studies, adjusted",
+    "est": 1.63,
+    "lo": 0.88,
+    "hi": 2.39,
+    "measure": "Hazard ratio",
+    "group": "Meta-analyses of observational studies",
+    "kind": "meta",
+    "note": "Diabetes 1.70 (1.10 to 2.64); obesity 0.47 (0.19 to 1.13)."
+   },
+   {
+    "ref": 36,
+    "label": "8 studies, semaglutide",
+    "est": 1.93,
+    "lo": 1.22,
+    "hi": 3.08,
+    "measure": "Risk ratio",
+    "group": "Meta-analyses of observational studies",
+    "kind": "meta",
+    "note": "Obesity 1.68 (0.72 to 3.91)."
+   },
+   {
+    "ref": 37,
+    "label": "5 studies, semaglutide",
+    "est": 2.52,
+    "lo": 1.56,
+    "hi": 4.72,
+    "measure": "Risk ratio",
+    "group": "Meta-analyses of observational studies",
+    "kind": "meta",
+    "note": "Bayesian credible interval."
+   },
+   {
+    "ref": 38,
+    "label": "10 studies, semaglutide",
+    "est": 2.62,
+    "lo": 1.81,
+    "hi": 3.8,
+    "measure": "Hazard ratio",
+    "group": "Meta-analyses of observational studies",
+    "kind": "meta",
+    "note": "Significant only after 2 years of use."
+   },
+   {
+    "ref": 39,
+    "label": "Network analysis, semaglutide",
+    "est": 1.54,
+    "lo": 1.31,
+    "hi": 1.82,
+    "measure": "Hazard ratio",
+    "group": "Meta-analyses of observational studies",
+    "kind": "meta",
+    "note": "Liraglutide 1.25 (1.08 to 1.45)."
+   },
+   {
+    "ref": 40,
+    "label": "28 studies in diabetes",
+    "est": 1.01,
+    "lo": 0.62,
+    "hi": 1.64,
+    "measure": "Risk ratio",
+    "group": "Meta-analyses of observational studies",
+    "kind": "meta",
+    "note": ""
+   }
+  ]
+ },
+ "absr": [
+  {
+   "ref": 1,
+   "label": "Referral clinic, diabetes",
+   "grp": "NAION",
+   "rd": 2970,
+   "rc": 600,
+   "rx": null,
+   "rn": "36-month cumulative incidence 8.9% against 1.8%, divided by 3",
+   "stype": "Cohort studies in diabetes"
+  },
+  {
+   "ref": 12,
+   "label": "Semaglutide, Denmark national register",
+   "grp": "NAION",
+   "rd": 22.8,
+   "rc": 9.3,
+   "rx": null,
+   "rn": "reported incidence rate",
+   "stype": "Cohort studies in diabetes"
+  },
+  {
+   "ref": 13,
+   "label": "Denmark and Norway, against SGLT2 inhibitor",
+   "grp": "NAION",
+   "rd": 21.9,
+   "rc": 11.8,
+   "rx": 14.1,
+   "rn": "Danish crude rates; extra is the adjusted pooled rate difference",
+   "stype": "Cohort studies in diabetes"
+  },
+  {
+   "ref": 14,
+   "label": "Semaglutide against SGLT2 inhibitor, US Veterans",
+   "grp": "NAION",
+   "rd": 123,
+   "rc": 67,
+   "rx": null,
+   "rn": "reported incidence rate",
+   "stype": "Cohort studies in diabetes"
+  },
+  {
+   "ref": 15,
+   "label": "Against DPP-4 inhibitor, UK primary care, 1 year",
+   "grp": "NAION",
+   "rd": 18.5,
+   "rc": 7.2,
+   "rx": null,
+   "rn": "1-year risk",
+   "stype": "Cohort studies in diabetes"
+  },
+  {
+   "ref": 17,
+   "label": "Against SGLT2 inhibitor, three US insurance databases",
+   "grp": "NAION",
+   "rd": null,
+   "rc": null,
+   "rx": 29,
+   "rn": "reported rate difference 0.29 per 1,000 person-years",
+   "stype": "Cohort studies in diabetes"
+  },
+  {
+   "ref": 18,
+   "label": "Semaglutide or tirzepatide, US records, 2 years",
+   "grp": "NAION",
+   "rd": 22,
+   "rc": 12,
+   "rx": null,
+   "rn": "2-year risk 35 and 19 of 79,699, divided by 2",
+   "stype": "Cohort studies in diabetes"
+  },
+  {
+   "ref": 19,
+   "label": "Against SGLT2 inhibitor, Sweden, 5 years",
+   "grp": "NAION",
+   "rd": 24,
+   "rc": 14,
+   "rx": null,
+   "rn": "5-year risk 0.12% against 0.07%, divided by 5",
+   "stype": "Cohort studies in diabetes"
+  },
+  {
+   "ref": 21,
+   "label": "14 US databases, semaglutide users",
+   "grp": "NAION",
+   "rd": 14.5,
+   "rc": null,
+   "rx": null,
+   "rn": "reported rate on semaglutide",
+   "stype": "Cohort studies in diabetes"
+  },
+  {
+   "ref": 8,
+   "label": "Against SGLT2 inhibitor, US Veterans, 3 years",
+   "grp": "NAION",
+   "rd": 130,
+   "rc": 98,
+   "rx": null,
+   "rn": "3-year risk 39.1 against 29.3 per 10,000, divided by 3",
+   "stype": "Cohort studies in diabetes"
+  },
+  {
+   "ref": 28,
+   "label": "Semaglutide, 5 years",
+   "grp": "NAION",
+   "rd": 13,
+   "rc": null,
+   "rx": null,
+   "rn": "5-year cumulative risk 0.065%, divided by 5",
+   "stype": "Cohort studies in diabetes"
+  },
+  {
+   "ref": 6,
+   "label": "US, age 18 to 65, against SGLT2 inhibitor",
+   "grp": "NAION",
+   "rd": 56.7,
+   "rc": 36.7,
+   "rx": null,
+   "rn": "18-month risk 8.5 against 5.5 per 10,000, divided by 1.5",
+   "stype": "Cohort studies in diabetes"
+  },
+  {
+   "ref": 6,
+   "label": "US, age 18 to 65, against DPP-4 inhibitor",
+   "grp": "NAION",
+   "rd": 52,
+   "rc": 28,
+   "rx": null,
+   "rn": "18-month risk 7.8 against 4.2 per 10,000, divided by 1.5",
+   "stype": "Cohort studies in diabetes"
+  },
+  {
+   "ref": 1,
+   "label": "Referral clinic, obesity",
+   "grp": "NAION",
+   "rd": 2230,
+   "rc": 270,
+   "rx": null,
+   "rn": "36-month cumulative incidence 6.7% against 0.8%, divided by 3",
+   "stype": "Cohort studies in obesity without diabetes"
+  },
+  {
+   "ref": 32,
+   "label": "69 trials",
+   "grp": "NAION",
+   "rd": 5.6,
+   "rc": 3.0,
+   "rx": null,
+   "rn": "reported rate",
+   "stype": "Randomised trials, pooled"
+  },
+  {
+   "ref": 41,
+   "label": "Pooled placebo-controlled trials, confirmed cases",
+   "grp": "NAION",
+   "rd": 3,
+   "rc": 6,
+   "rx": null,
+   "rn": "reported rate, about 3 against about 6",
+   "stype": "Randomised trials, pooled"
+  },
+  {
+   "ref": 2,
+   "label": "Observational studies, diabetes",
+   "grp": "NAION",
+   "rd": 26.7,
+   "rc": 18.9,
+   "rx": null,
+   "rn": "reported pooled rate",
+   "stype": "Meta-analyses of observational studies"
+  },
+  {
+   "ref": 4,
+   "label": "5 studies, diabetes",
+   "grp": "NAION",
+   "rd": null,
+   "rc": null,
+   "rx": 14,
+   "rn": "reported absolute excess 0.014% per year",
+   "stype": "Meta-analyses of observational studies"
+  }
+ ],
+ "pv": [],
+ "calcRR": [
+  {
+   "l": "Time-varying (Danish data)",
+   "note": "Excess confined to 6 to 24 months. The Danish ratios are larger than the pooled average; with the Danish starting rate of 9 the peak is about 1 extra case per 4,200 people per year.",
+   "periods": [
+    {
+     "from": 0,
+     "to": 6,
+     "est": 1.0,
+     "lo": 1.0,
+     "hi": 1.0,
+     "basis": "Published 0.80 (0.32 to 2.05); treated as no excess",
+     "ref": 7
+    },
+    {
+     "from": 6,
+     "to": 12,
+     "est": 3.63,
+     "lo": 2.06,
+     "hi": 6.4,
+     "basis": "Danish case-control",
+     "ref": 7
+    },
+    {
+     "from": 12,
+     "to": 24,
+     "est": 3.52,
+     "lo": 1.73,
+     "hi": 7.17,
+     "basis": "Danish case-control, 12 to 18 months; assumed to 24",
+     "ref": 7
+    },
+    {
+     "from": 24,
+     "to": null,
+     "est": 1.0,
+     "lo": 1.0,
+     "hi": 1.0,
+     "basis": "Assumed no excess; fits cumulative ratio of about 2 at 4 years",
+     "ref": 16
+    }
+   ]
+  },
+  {
+   "l": "Constant, pooled (Liu 1.85)",
+   "note": "A constant ratio overstates early risk and understates the peak.",
+   "periods": [
+    {
+     "from": 0,
+     "to": null,
+     "est": 1.85,
+     "lo": 1.2,
+     "hi": 2.85,
+     "basis": "Pooled observational studies, diabetes",
+     "ref": 2
+    }
+   ]
+  },
+  {
+   "l": "Constant, US Veterans (Choi 1.35)",
+   "note": "A constant ratio overstates early risk and understates the peak.",
+   "periods": [
+    {
+     "from": 0,
+     "to": null,
+     "est": 1.35,
+     "lo": 1.11,
+     "hi": 1.51,
+     "basis": "Chart-checked diagnosis codes, 3 years",
+     "ref": 8
+    }
+   ]
+  }
+ ]
+}
